@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Battambang';
+    src: url( '../fonts/Battambang/Battambang-Regular.ttf');
+}
+@font-face {
+    font-family:'Koulen' ;
+    src: url('../fonts/Koulen/Koulen-Regular.ttf');
+}
+@font-face {
+    font-family: 'OpenSanRegular';
+    src: url('../fonts/Open_Sans/static/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'OpenSanSemibold';
+    src: url('../fonts/Open_Sans/static/OpenSans-SemiBold.ttf');
+}
+body{
+    font-family: 'Battambang','OpenSanRegular' ;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'OpenSanSemibold';
+    font-family: 'koulen';
+}
+.category_card image{
+    height: 100px;
+    object-fit: contain;
+}
+.category_card{
+    padding: 5px;
+}
